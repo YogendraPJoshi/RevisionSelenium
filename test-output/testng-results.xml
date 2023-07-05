@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading data from property file url]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signInButton]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file mobNum]]>
+    </line>
+    <line>
+      <![CDATA[entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signinButton]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file pwd]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button ]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Handeling popup]]>
+    </line>
+    <line>
+      <![CDATA[Handeling popup]]>
+    </line>
+    <line>
+      <![CDATA[getting actual user name]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file un]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-05T19:56:48 IST" name="Default suite" finished-at="2023-05-05T19:57:01 IST" duration-ms="13226">
+    <groups>
+    </groups>
+    <test started-at="2023-05-05T19:56:48 IST" name="Default test" finished-at="2023-05-05T19:57:01 IST" duration-ms="13226">
+      <class name="pom.NEO4567_ValidateUserName">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom.NEO4567_ValidateUserName@121314f7]" started-at="2023-05-05T19:56:48 IST" name="launchBrowser" finished-at="2023-05-05T19:56:52 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from property file url]]>
+            </line>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:pom.NEO4567_ValidateUserName@121314f7]" started-at="2023-05-05T19:56:52 IST" name="loginToNeoStox" finished-at="2023-05-05T19:56:57 IST" duration-ms="5124" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signInButton]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from property file mobNum]]>
+            </line>
+            <line>
+              <![CDATA[entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signinButton]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from property file pwd]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button ]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Handeling popup]]>
+            </line>
+            <line>
+              <![CDATA[Handeling popup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:pom.NEO4567_ValidateUserName@121314f7]" started-at="2023-05-05T19:56:57 IST" name="validateUserName" finished-at="2023-05-05T19:56:58 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getting actual user name]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from property file un]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:pom.NEO4567_ValidateUserName@121314f7]" started-at="2023-05-05T19:56:58 IST" name="logOutFromNeoStox" finished-at="2023-05-05T19:57:00 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="closeNeoStoxApplication()[pri:0, instance:pom.NEO4567_ValidateUserName@121314f7]" started-at="2023-05-05T19:57:00 IST" name="closeNeoStoxApplication" finished-at="2023-05-05T19:57:01 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeNeoStoxApplication -->
+      </class> <!-- pom.NEO4567_ValidateUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
